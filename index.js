@@ -17,5 +17,5 @@ s3.listBuckets(function(err, data) {
 });
 
 function consoleOut(value) {
-  console.log(value.Name)
+  console.log(value.Name);
 }
